@@ -5,6 +5,7 @@
 			wget
 			tree
 			git
+			pciutils
 			kitty
 			librewolf
 			libreoffice
