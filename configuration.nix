@@ -1,6 +1,8 @@
 { config, lib, pkgs, ... }:
 
 {
+	system.nixos.label = "Experimental";
+
 	imports =[
 		./sys/hardware-configuration.nix
 		./sys/nvidia-configuration.nix
