@@ -13,10 +13,12 @@
 	boot.loader.efi.canTouchEfiVariables = true;
 
 	# Networking stuff
-	networking.hostName = "potato";
-	networking.hostId = "8425e349";
-	networking.networkmanager.enable = true;
-
+	networking = {
+		hostName = "potato";
+		hostId = "8425e349";
+		networkmanager.enable = true;
+	};
+	
 	# Enable Bluetooth
 	hardware.bluetooth.enable = true;
 
@@ -35,5 +37,8 @@
 	};
 
 	# Enable flakes
-	nix.settings.experimental-features = ["nix-command" "flakes"];
+	nix.settings.experimental-features = [
+		"nix-command"
+		"flakes"
+	];
 }
