@@ -4,6 +4,7 @@
 			neovim
 			wget
 			tree
+			gcc
 			git
 			pciutils
 			kitty
