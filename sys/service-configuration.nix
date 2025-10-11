@@ -3,7 +3,7 @@
 		xserver.videoDrivers = ["modesetting" "nvidia"];
 		zfs = {
 			autoScrub = {
-				enable = truel
+				enable = true;
 			};
 
 			autoSnapshot = {
