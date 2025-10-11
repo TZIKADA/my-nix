@@ -5,6 +5,7 @@
 			wget
 			tree
 			gcc
+			fastfetch
 			git
 			pciutils
 			kitty
