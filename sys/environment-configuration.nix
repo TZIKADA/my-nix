@@ -23,9 +23,7 @@
 	};
 	
 	fonts = {
-		enableDefaultPackage = true;
+		enableDefaultPackages = true;
 		fontDir.enable = true;
 	};
-
-	nixpkg.config.allowUnfree = true;
 }

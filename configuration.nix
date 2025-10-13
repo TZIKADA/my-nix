@@ -8,6 +8,7 @@
 		./sys/nvidia-configuration.nix
 		./sys/service-configuration.nix
 		./sys/environment-configuration.nix
+		./sys/programs-configuration.nix
 	];
 	
 	# Bootloader:
@@ -43,4 +44,7 @@
 		"nix-command"
 		"flakes"
 	];
+
+	# Allow proprietary software
+	nixpkgs.config.allowUnfree = true;
 }
